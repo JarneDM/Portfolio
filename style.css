@@ -71,7 +71,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     box-shadow: 0 0 10px #f2a154;
-    white-space: nowrap; /* Add this line to prevent wrapping */
+    white-space: nowrap; 
   }
   
   nav ul {
@@ -90,9 +90,8 @@ body {
   @media (max-width: 600px) {
     nav ul {
       flex-wrap: wrap;
-      justify-content: flex-start; /* Adjust the alignment for smaller screens */
+      justify-content: flex-start; 
     }
-  
     nav ul li {
       display: block;
       margin-right: 0;
@@ -138,4 +137,5 @@ body {
   a {
     color: rgb(158, 85, 16);
     font-weight: bold;
+  }
   }
