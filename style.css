@@ -140,8 +140,16 @@ html{
     background-color: #f07a0b;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
+    border: 1px solid white; 
     cursor: pointer;
+    transition: line-height 0.3s ease;
+    line-height: 20px; 
+  }
+
+  .back-to-top:hover{
+    background-color: #c65100;
+    line-height: 25px; 
   }
   
   footer {
