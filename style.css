@@ -13,6 +13,10 @@ body {
   background-color: #0481d4; 
 }
 
+html{
+  scroll-behavior: smooth;;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 0 10px; 
@@ -60,21 +64,20 @@ body {
 
   
   .nav-wrapper {
-    display: flex;
-    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   nav {
-    background-color: #f2a154;
+    background-color: white;
     padding: 10px 20px;
     border: 2px solid orange;
     border-radius: 5px;
-    max-width: 100%;
-    margin: 0 auto;
-    box-shadow: 0 0 10px #f2a154;
-    white-space: nowrap; /* Add this line to prevent wrapping */
+    max-width: 400px;
+    margin: 20px auto 0;
+    white-space: nowrap; 
   }
-  
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -101,14 +104,22 @@ body {
     }
   }
   
-  
-  
   nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #f2a154;
     padding: 20px;
     height: 30px;
+    transition: line-height 0.3s ease;
+    line-height: 30px; /* Adjust this value to control the line height */
   }
+  
+  nav ul li a:hover {
+    color: #c65100;
+    line-height: 25px; /* Adjust this value to move the text up */
+  }
+  
+  
+  
 
   .main-section,
   .sub-section,
