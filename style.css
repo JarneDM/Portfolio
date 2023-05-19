@@ -158,10 +158,16 @@ html{
     padding: 10px;
     text-align: center;
   }
+
+.a-links:hover{
+  color: #e26a14;
+}
+
   
   p {
     color: black;
   }
+
   a {
     color: rgb(158, 85, 16);
     font-weight: bold;
