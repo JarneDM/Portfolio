@@ -104,7 +104,8 @@ html{
     }
 
     nav ul li a{
-      padding: 10px;
+      padding: 5px;
+      font-size: small;
     }
   }
   
