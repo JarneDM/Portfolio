@@ -102,6 +102,10 @@ html{
       margin-right: 0;
       margin-bottom: 5px;
     }
+
+    nav ul li a{
+      padding: 10px;
+    }
   }
   
   nav ul li a {
@@ -116,6 +120,7 @@ html{
   nav ul li a:hover {
     color: #c65100;
     line-height: 25px; 
+    
   }
   
   .main-section,
