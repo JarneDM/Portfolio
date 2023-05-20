@@ -4,11 +4,12 @@ window.onload = function () {
 };
 
 window.onscroll = function () {
-  let button = document.getElementById('back-to-top');
-  let mobileButton = document.getElementById('btt-media');
+  let button = document.getElementById('back-to-top'); // WebPage(pc or laptop) button
+  let mobileButton = document.getElementById('btt-media'); // mobile button
 
   if (window.pageYOffset > 0) {
     button.style.display = 'block';
+    // if the button is equal to or less then 600 px then the mobile button is showing and the webpage button is hiding
     if (window.matchMedia('(max-width: 600px)').matches) {
       mobileButton.style.display = 'block';
       button.style.display = 'none';
@@ -19,10 +20,12 @@ window.onscroll = function () {
   }
 };
 
+// this is ofc the function that changes the buttons from small to big or big to small
 function handleResize() {
   let btn = document.getElementById('btt-media');
   let button = document.getElementById('back-to-top');
 
+  // i know its hard to read but if it works it works
   if (
     window.pageYOffset > 0 &&
     window.matchMedia('(max-width: 600px)').matches
@@ -41,6 +44,7 @@ function handleResize() {
   }
 }
 
+// adding an event listener to the window, in this case it is the handleResize function
 window.addEventListener('resize', handleResize);
 
 function scrollToTop() {
