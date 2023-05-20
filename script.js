@@ -1,18 +1,49 @@
 window.onload = function () {
-  window.scrollTo(0, 0); // scrolls to the top of the page if the page is refreshed
-  history.replaceState({}, document.title, window.location.pathname); // setting the default link instead of the latest thing that has been clicked on in the nav bar. ex: /#projects -> /
+  window.scrollTo(0, 0);
+  history.replaceState({}, document.title, window.location.pathname);
 };
 
 window.onscroll = function () {
-  var button = document.getElementById('back-to-top');
+  let button = document.getElementById('back-to-top');
+  let mobileButton = document.getElementById('btt-media');
+
   if (window.pageYOffset > 0) {
-    button.style.display = 'block'; // button is showing
+    button.style.display = 'block';
+    if (window.matchMedia('(max-width: 600px)').matches) {
+      mobileButton.style.display = 'block';
+      button.style.display = 'none';
+    }
   } else {
-    button.style.display = 'none'; // button is gone
+    button.style.display = 'none';
+    mobileButton.style.display = 'none';
   }
 };
 
+function handleResize() {
+  let btn = document.getElementById('btt-media');
+  let button = document.getElementById('back-to-top');
+
+  if (
+    window.pageYOffset > 0 &&
+    window.matchMedia('(max-width: 600px)').matches
+  ) {
+    btn.style.display = 'block';
+    button.style.display = 'none';
+  } else if (
+    window.pageYOffset > 0 &&
+    window.matchMedia('(min-width: 601px)').matches
+  ) {
+    btn.style.display = 'none';
+    button.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+    button.style.display = 'none';
+  }
+}
+
+window.addEventListener('resize', handleResize);
+
 function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' }); // again scrolling to the top with a smooth transition ofc
-  history.replaceState({}, document.title, window.location.pathname); // again resetting the link for /#... to /
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  history.replaceState({}, document.title, window.location.pathname);
 }
