@@ -1,0 +1,45 @@
+@import "./const.css";
+
+.navbar {
+  background-color: var(--bg-navbar);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar li {
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.dark-mode__toggle {
+  transition: 0.3s;
+  cursor: pointer;
+  background: none;
+  border: none;
+  &::selection {
+    /* make it spin  a 180 degree */
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+  & img {
+    height: 1.5rem;
+    filter: brightness(0);
+  }
+}
+
+[data-theme="dark"] .dark-mode__toggle img {
+  filter: brightness() invert(1);
+}

@@ -1,164 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jarne DM</title>
-    <link rel="icon" href="layers.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Portfolio</h1>
-    </header>
-    <div class="nav-wrapper">
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#goals">Goals</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of JarneDM, a web developer specializing in back-end technologies">
+    <title>Home | JarneDM</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <ul role="menubar">
+            <li class="nav-item" role="link">
+                <a href="index.html" role="menuitem" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item" role="link">
+                <a href="about.html" role="menuitem">About</a>
+            </li>
+            <li class="nav-item" role="link">
+                <a href="projects.html" role="menuitem">Projects</a>
+            </li>
+            <li class="nav-item" role="link">
+                <a href="contact.html" role="menuitem">Contact Me</a>
+            </li>
+            <li class="nav-item" role="link">
+                <button class="dark-mode__toggle" id="dark-mode__toggle" aria-label="Toggle Dark Mode"
+                    aria-pressed="false" role="switch">
+                    <img src="./assets/light-mode.png" alt="Switch to Dark Mode">
+                </button>
+            </li>
         </ul>
-      </nav>
-    </div>
-    <div class="container" id="home">
-      <section class="main-section">
-        <h2 id="about" style="color: black">About Me</h2>
-        <p>
-          Hi, I'm Jarne, a 18-year-old guy from Belgium passionate about web
-          development. I am currently learning the ropes of creating awesome
-          websites. I have a particular interest in front-end development and
-          enjoy crafting engaging user interfaces with HTML, CSS, and
-          JavaScript.
-        </p>
-        <p>
-          Besides web development, I also have some experience in Python
-          programming. I've tinkered with Python to build small projects and
-          automate tasks. I find it fascinating how coding empowers us to bring
-          ideas to life and solve problems in creative ways.
-        </p>
-        <p>
-          I'm excited to continue my journey in the world of web development and
-          explore new technologies and frameworks along the way. Feel free to
-          connect with me if you share similar interests or have any questions.
-          Let's learn and grow together!
-        </p>
-      </section>
-      <section id="goals" class="sub-section">
-        <h2>Future Goals</h2>
-        <p>
-          In terms of my future goals, I am incredibly passionate about web
-          development and have a clear vision of where I want to go. One of my
-          primary objectives is to create a personal project that holds great
-          value to me – a blog app/website where individuals can share their
-          thoughts, experiences, and ideas through engaging blog posts. I
-          believe in the power of storytelling and how it can connect people
-          from all walks of life. By developing this platform, I aim to foster a
-          vibrant online community where individuals can express themselves and
-          engage in meaningful discussions.
-        </p>
-        <p>
-          Additionally, I have set my sights on working at a big tech company,
-          where I can leverage my web development skills and collaborate with
-          like-minded professionals. Being part of a renowned tech company will
-          provide me with valuable opportunities to learn, grow, and contribute
-          to innovative projects that have a significant impact on the digital
-          landscape. I am eager to immerse myself in a dynamic work environment,
-          surrounded by talented individuals who share my passion for pushing
-          the boundaries of technology.
-        </p>
-      </section>
-      <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <h4>Login Signup Form</h4>
-        <p>
-          I created a responsive login form and signup form that provide a
-          seamless user experience. The forms incorporate modern design
-          principles and validation techniques to ensure data integrity. You can
-          check out the project live at
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://login-form-jarne.vercel.app/"
-            >Login and Signup Form</a
-          >
-          and explore the source code on
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://github.com/JarneDM/login-form"
-            >GitHub</a
-          >.
-        </p>
-        <h4>Topsy Turvy Game</h4>
-        <p>
-          As a fan of game development, I ventured into creating a game using
-          Pygame called 'Topsy Turvy.' Although it is not yet published, you can
-          explore the project's source code on
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://github.com/JarneDM/Topsy-Turvy"
-            >GitHub</a
-          >. Topsy Turvy offers an engaging gaming experience with unique
-          gameplay mechanics.
-        </p>
-        <h4>Google Clone (Design)</h4>
-        <p>
-          I undertook the challenge of recreating the design of Google's search
-          engine. Although it does not have the full functionality, the clone
-          demonstrates my attention to detail and ability to replicate complex
-          interfaces. You can view the project live at
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://google-clone-jarnedm.vercel.app/"
-            >Google Clone</a
-          >
-          and explore the source code on
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://github.com/JarneDM/Google-Clone"
-            >GitHub</a
-          >.
-        </p>
-      </section>
-      <section id="contact" class="contact">
-        <h2>Contact</h2>
+    </nav>
 
-        <p>
-          E-Mail:
-          <strong style="color: rgb(158, 85, 16)"
-            ><a
-              class="a-links"
-              target="_blank"
-              href="mailto:jarnedm05@gmail.com"
-              >jarnedm05@gmail.com</a
-            ></strong
-          >
-        </p>
-        <p>
-          Twitter:
-          <a
-            class="a-links"
-            target="_blank"
-            href="https://twitter.com/JarneDM05"
-            >@JarneDM05</a
-          >
-        </p>
-      </section>
-    </div>
+    <main class="content" id="main-content" tabindex="-1">
+        <h1 class="content__title">
+            Hello <br> I'm Jarne
+            <hr aria-hidden="true">
+            <span class="content__role">Web Developer</span>
+        </h1>
 
-    <button id="btt-media" class="btt-media" onclick="scrollToTop()">
-      Back<br />to<br />Top
-    </button>
+        <a href="projects.html" class="content__button" role="button">View My Projects</a>
+    </main>
 
-    <button id="back-to-top" class="back-to-top" onclick="scrollToTop()">
-      Back to Top
-    </button>
-    <script src="script.js"></script>
-  </body>
+    <footer class="footer" aria-label="Social media links">
+        <ul class="socials" role="list">
+            <li class="socials__item" role="listitem">
+                <a target="_blank" href="https://github.com/JarneDM" aria-label="GitHub profile (opens in new tab)">
+                    GitHub
+                </a>
+            </li>
+            <li class="socials__item" role="listitem">
+                <a target="_blank" href="https://www.linkedin.com/in/jarne-de-meyer-22a2b5358/"
+                    aria-label="LinkedIn profile (opens in new tab)">
+                    LinkedIn
+                </a>
+            </li>
+            <li class="socials__item" role="listitem">
+                <a target="_blank" href="mailto:jarnedm@outlook.com"
+                    aria-label="Send email to Jarnedm at outlook dot com">
+                    E-Mail
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./js/dark.js"></script>
+</body>
+
 </html>

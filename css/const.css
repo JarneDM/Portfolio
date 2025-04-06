@@ -1,0 +1,28 @@
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --color-text: rgb(0, 0, 0);
+  --bg-btn: rgb(0, 0, 0);
+  --bg-btn-hover: rgb(255, 255, 255);
+  --clr-btn-hover: rgb(0, 0, 0);
+  --bg-navbar: rgb(255, 255, 255);
+  --bg-footer: rgb(0, 0, 0);
+  --color-footer-text: rgb(255, 255, 255);
+  --link-hover: rgb(122, 121, 121);
+  --border-color: #cccccc;
+  --shadow: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] {
+  --bg-color: rgb(0, 0, 0);
+  --bg-title: rgb(255, 255, 255);
+  --link-hover: rgb(122, 121, 121);
+  --color-text: rgb(255, 255, 255);
+  --bg-btn: rgb(255, 255, 255);
+  --bg-btn-hover: rgba(0, 0, 0, 0.8);
+  --clr-btn-hover: rgb(255, 255, 255);
+  --bg-navbar: rgb(0, 0, 0);
+  --bg-footer: rgb(255, 255, 255);
+  --color-footer-text: rgb(0, 0, 0);
+  --border-color: #333333;
+  --shadow: rgba(255, 255, 255, 0.2);
+}
