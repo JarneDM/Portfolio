@@ -1,12 +1,27 @@
-# React + Vite
+Dark Modern Tech (Neo-Retro Hacker Vibe)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Background: #0F172A (slate-900 — very dark blue/gray)
 
-Currently, two official plugins are available:
+Primary Accent: #38BDF8 (sky-400 — cyber blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Secondary Accent: #F472B6 (pink-400 — playful contrast)
 
-## Expanding the ESLint configuration
+Window Background: #ffffffff (slate-800)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Text: #E2E8F0 (slate-200, light gray for readability)
+
+Error/Alert Red: #EF4444
+
+🔹 Light Minimal Mac-like UI
+
+Background: #F1F5F9 (slate-100 — soft light gray)
+
+Window Background: #FFFFFF (classic white)
+
+Primary Accent: #3B82F6 (blue-500 — Mac-style blue highlight)
+
+Secondary Accent: #10B981 (emerald-500 — green success color)
+
+Text: #111827 (gray-900 — near black)
+
+Warning/Alert Yellow: #FACC15
