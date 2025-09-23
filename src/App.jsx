@@ -7,7 +7,7 @@ import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
-    <div className="bg-[#F1F5F9] dark:bg-[#0F172A] h-screen w-screen flex justify-center items-center">
+    <div className="bg-[#F1F5F9] dark:bg-[#0F172A] min-h-screen w-full flex justify-center items-center p-6">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
