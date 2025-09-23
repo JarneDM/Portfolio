@@ -1,0 +1,37 @@
+[
+  {
+    "id": "about",
+    "title": "About",
+    "description": "This page tells more about me.",
+    "image": "../assets/file.png",
+    "route": "/about"
+  },
+  {
+    "id": "1",
+    "title": "Gym-Clickr",
+    "description": "My first project about XYZ.",
+    "image": "../assets/file.png",
+    "route": "/projects/1"
+  },
+  {
+    "id": "2",
+    "title": "Skivio",
+    "description": "Another project with details.",
+    "image": "../assets/file.png",
+    "route": "/projects/2"
+  },
+  {
+    "id": "3",
+    "title": "ProjectThree",
+    "description": "Another project with details.",
+    "image": "../assets/file.png",
+    "route": "/projects/3"
+  },
+  {
+    "id": "contact",
+    "title": "Contact",
+    "description": "Get in touch with me here.",
+    "image": "../assets/file.png",
+    "route": "/contact"
+  }
+]
