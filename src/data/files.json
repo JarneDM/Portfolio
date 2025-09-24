@@ -1,34 +1,38 @@
 [
   {
-    "id": "about",
+    "id": "1",
     "title": "About",
-    "description": "This page tells more about me.",
+    "description": [
+      "Hello! I'm JarneDM, a passionate web developer with a knack for creating dynamic and user-friendly websites. With a strong foundation in HTML, CSS, JavaScript and React.js.",
+      "My journey into web development started a few years ago, and since then, I've been staying up to date with the latest industry trends. I enjoy working on both front-end and back-end development, and I'm always eager to take on new challenges that push my boundaries.",
+      "When I'm not coding, you can find me exploring new technologies, going to the gym, or simply enjoying a good book. I'm excited to connect with like-minded individuals and collaborate on innovative projects."
+    ],
     "image": "../assets/file.png",
     "route": "/about"
   },
   {
-    "id": "1",
+    "id": "2",
     "title": "Gym-Clickr",
     "description": "My first project about XYZ.",
-    "image": "../assets/file.png",
-    "route": "/projects/1"
-  },
-  {
-    "id": "2",
-    "title": "Skivio",
-    "description": "Another project with details.",
     "image": "../assets/file.png",
     "route": "/projects/2"
   },
   {
     "id": "3",
-    "title": "ProjectThree",
+    "title": "Skivio",
     "description": "Another project with details.",
     "image": "../assets/file.png",
     "route": "/projects/3"
   },
   {
-    "id": "contact",
+    "id": "4",
+    "title": "ProjectThree",
+    "description": "Another project with details.",
+    "image": "../assets/file.png",
+    "route": "/projects/4"
+  },
+  {
+    "id": "5",
     "title": "Contact",
     "description": "Get in touch with me here.",
     "image": "../assets/file.png",
