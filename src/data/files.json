@@ -3,9 +3,9 @@
     "id": "1",
     "title": "About",
     "description": [
-      "Hello! I'm JarneDM, a passionate web developer with a knack for creating dynamic and user-friendly websites. With a strong foundation in HTML, CSS, JavaScript and React.js.",
-      "My journey into web development started a few years ago, and since then, I've been staying up to date with the latest industry trends. I enjoy working on both front-end and back-end development, and I'm always eager to take on new challenges that push my boundaries.",
-      "When I'm not coding, you can find me exploring new technologies, going to the gym, or simply enjoying a good book. I'm excited to connect with like-minded individuals and collaborate on innovative projects."
+      "Hi! I'm JarneDM, a passionate web developer who loves building dynamic, user-friendly websites and applications. I work with HTML, CSS, JavaScript, and React.js, and I'm steadily expanding my skills in full-stack development.",
+      "I started my coding journey a few years ago and quickly became hooked on the challenge of turning ideas into real, functional projects. Since then, I've been staying up to date with industry trends and sharpening both my front-end and back-end skills. I enjoy tackling new challenges that push me to grow as a developer.",
+      "When I'm not coding, you'll usually find me exploring new tech, hitting the gym, or unwinding with a good book. I'm always open to connecting with like-minded people and collaborating on innovative projects."
     ],
     "image": "../assets/file.png",
     "route": "/about"
