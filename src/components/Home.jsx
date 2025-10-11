@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link, useLocation } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,6 +26,29 @@ function Home() {
           I love creating dynamic and user-friendly websites, with a strong foundation in{" "}
           <span className="font-semibold">HTML, CSS, JavaScript</span> and <span className="font-semibold">React.js</span>.
         </motion.p>
+
+        <div className="flex text-black w-auto p-5 justify-between">
+          <Link to="/projects">
+            <motion.button
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.5, duration: 0.5 }}
+              className="p-3 rounded-md w-[10rem] transition cursor-pointer bg-[#FFFFFF] shadow-[-6px_6px_0px_black] hover:bg-blue-700"
+            >
+              My Projects
+            </motion.button>
+          </Link>
+          <Link to="/contact">
+            <motion.button
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.5, duration: 0.5 }}
+              className="p-3 rounded-md w-[10rem] transition cursor-pointer bg-[#FFFFFF] shadow-[-6px_6px_0px_black] hover:bg-blue-700"
+            >
+              Contact me
+            </motion.button>
+          </Link>
+        </div>
       </div>
     </div>
   );

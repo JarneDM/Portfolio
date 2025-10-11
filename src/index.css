@@ -13,7 +13,8 @@
 
 body {
   background-color: #f1f5f9;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow-x: hidden;
   font-family: "Kodchasan", sans-serif;
   font-weight: 500;
   font-style: normal;

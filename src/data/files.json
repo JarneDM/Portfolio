@@ -1,6 +1,5 @@
 [
   {
-    "id": "1",
     "title": "About",
     "description": [
       "Hi! I'm JarneDM, a passionate web developer who loves building dynamic, user-friendly websites and applications. I work with HTML, CSS, JavaScript, and React.js, and I'm steadily expanding my skills in full-stack development.",
@@ -9,33 +8,5 @@
     ],
     "image": "../assets/file.png",
     "route": "/about"
-  },
-  {
-    "id": "2",
-    "title": "Gym-Clickr",
-    "description": "My first project about XYZ.",
-    "image": "../assets/file.png",
-    "route": "/projects/2"
-  },
-  {
-    "id": "3",
-    "title": "Skivio",
-    "description": "Another project with details.",
-    "image": "../assets/file.png",
-    "route": "/projects/3"
-  },
-  {
-    "id": "4",
-    "title": "ProjectThree",
-    "description": "Another project with details.",
-    "image": "../assets/file.png",
-    "route": "/projects/4"
-  },
-  {
-    "id": "5",
-    "title": "Contact",
-    "description": "Get in touch with me here.",
-    "image": "../assets/file.png",
-    "route": "/contact"
   }
 ]

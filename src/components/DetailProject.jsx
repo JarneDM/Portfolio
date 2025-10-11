@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import filesData from "../data/files.json";
+import projectData from "../data/projectData.json";
 
 function DetailProject() {
   const { id } = useParams();
-  const project = filesData.find((file) => file.id === id);
+  const project = (projectData.projects || projectData).find((project) => String(project.id) === String(id));
 
   if (!project) return <h1>Not found</h1>;
 
