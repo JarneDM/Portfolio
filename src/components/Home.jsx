@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="grid justify-center items-center text-white text-center min-h-screen px-6">
+    <div className="relative grid justify-center items-center text-white text-center min-h-screen px-6">
       <div className="space-y-8">
         <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="text-5xl mb-2">Hi,</h1>

@@ -13,9 +13,30 @@
 
 body {
   background-color: #f1f5f9;
-  /* overflow: hidden; */
+  overflow: hidden;
   overflow-x: hidden;
   font-family: "Kodchasan", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+@keyframes waveGradient {
+  0% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
+.animated-bg {
+  background: radial-gradient(circle at 20% 30%, #02267b, transparent 50%),
+    /* darkest blue */ radial-gradient(circle at 80% 70%, #001e6f, transparent 50%),
+    /* deep blue */ radial-gradient(circle at 50% 50%, #3300c0, transparent 60%),
+    /* medium-dark blue */ /* deep blue */ radial-gradient(circle at 25% 25%, #6000c7, transparent 80%); /* medium-dark blue */
+  background-size: 200% 200%;
+  animation: waveGradient 12s ease-in-out infinite;
 }

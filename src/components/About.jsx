@@ -9,7 +9,7 @@ function About() {
   if (!content) return <h1 className="text-white text-center mt-20 text-3xl">Not found</h1>;
 
   return (
-    <div className="p-10 space-y-8 min-w-[20rem] text-white flex flex-col items-center">
+    <div className="relative z-10 p-10 space-y-8 min-w-[20rem] text-white flex flex-col items-center bg-blue-800/50 rounded-lg shadow-lg shadow-black/50">
       <motion.h1
         className="text-5xl font-bold mb-8 border-b-2 border-white py-2 w-min text-center"
         initial={{ opacity: 0, y: -20 }}
