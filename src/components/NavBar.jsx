@@ -62,10 +62,6 @@ function NavBar() {
           </button>
         </Link>
       </div>
-      <div className="hidden lg:grid w-auto text-white/50">
-        <h2 className="text-xl">Portfolio Jarne De Meyer</h2>
-        <hr className="w-full" />
-      </div>
     </div>
   );
 }
