@@ -6,7 +6,9 @@
       "description": "A little clicker game where you can buy upgrades to increase your clicks per second. The demo is built with vanilla JavaScript. The full game will be built with React.js and Tailwind CSS for the frontend, and Express.js, Node.js, and MongoDB for the backend to handle user data and game state.",
       "image": "./src/assets/gym-clickr.png",
       "stack": ["React.js", "Tailwind CSS", "Express.js", "Node.js", "MongoDB", "In progress"],
-      "route": "/projects/1"
+      "route": "/projects/1",
+      "liveDemo": "https://gym-clicker.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/gym-clicker"
     },
     {
       "id": "2",
@@ -14,7 +16,9 @@
       "description": "Another project with details.",
       "stack": ["React.js", "Tailwind CSS", "Dexie.js", "Headless UI", "Hello-Pangea/dnd"],
       "image": "./src/assets/skivio.png",
-      "route": "/projects/2"
+      "route": "/projects/2",
+      "liveDemo": "https://skivio.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/Skivio"
     },
     {
       "id": "3",
@@ -22,7 +26,9 @@
       "description": "A web application where users can check the weather in different cities. It fetches data from a weather API and displays current temperature, and weather conditions. Users can also favorite cities for quick access.",
       "stack": ["React.js", "Tailwind CSS", "Express.js", "Node.js"],
       "image": "./src/assets/weather-app.png",
-      "route": "/projects/3"
+      "route": "/projects/3",
+      "liveDemo": "https://weather-app-jarnedm.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/weather-app"
     },
     {
       "id": "4",
@@ -30,7 +36,8 @@
       "description": "A fun game I made in pygame where you control a character that has to avoid the enemy and collect coins. It looks simple but there is a slight catch. The controls are inverted, so when you press left, the character goes right and vice versa.",
       "stack": ["Python", "Pygame"],
       "image": "./src/assets/topsy-turvy.png",
-      "route": "/projects/4"
+      "route": "/projects/4",
+      "sourceCode": "https://github.com/JarneDM/topsy-turvy"
     }
   ]
 }
