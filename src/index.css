@@ -9,6 +9,37 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(59, 130, 246, 0.95); /* tailwind blue-500 */
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(59, 130, 246, 0.95) transparent; /* Firefox */
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-25%);
+    }
+  }
+
+  .animate-marquee {
+    display: inline-flex;
+    animation: marquee 15s linear infinite;
+  }
 }
 
 body {
@@ -33,10 +64,8 @@ body {
 }
 
 .animated-bg {
-  background: radial-gradient(circle at 20% 30%, #02267b, transparent 50%),
-    /* darkest blue */ radial-gradient(circle at 80% 70%, #001e6f, transparent 50%),
-    /* deep blue */ radial-gradient(circle at 50% 50%, #3300c0, transparent 60%),
-    /* medium-dark blue */ /* deep blue */ radial-gradient(circle at 25% 25%, #6000c7, transparent 80%); /* medium-dark blue */
+  background: radial-gradient(circle at 20% 30%, #02267b, transparent 50%), radial-gradient(circle at 80% 70%, #001e6f, transparent 50%),
+    radial-gradient(circle at 50% 50%, #3300c0, transparent 60%), radial-gradient(circle at 25% 25%, #6000c7, transparent 80%);
   background-size: 200% 200%;
   animation: waveGradient 12s ease-in-out infinite;
 }

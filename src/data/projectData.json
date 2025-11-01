@@ -13,7 +13,7 @@
     {
       "id": "2",
       "title": "Skivio",
-      "description": "Another project with details.",
+      "description": "A responsive KanBan task board web app built with React.JS, Tailwind.CSS and Dexie.js (for IndexedDB), designed to give an intuitive drag-and-drop workflow for managing projects and tasks.",
       "stack": ["React.js", "Tailwind CSS", "Dexie.js", "Headless UI", "Hello-Pangea/dnd"],
       "image": "./src/assets/skivio.png",
       "route": "/projects/2",
@@ -32,12 +32,20 @@
     },
     {
       "id": "4",
-      "title": "Topsy Turvy",
-      "description": "A fun game I made in pygame where you control a character that has to avoid the enemy and collect coins. It looks simple but there is a slight catch. The controls are inverted, so when you press left, the character goes right and vice versa.",
-      "stack": ["Python", "Pygame"],
-      "image": "./src/assets/topsy-turvy.png",
+      "title": "Portfolio",
+      "description": "The very portfolio you are looking at right now! Built with React.js and Tailwind CSS, featuring smooth scrolling and animations powered by Lenis and Framer Motion.",
+      "stack": ["React.js", "Tailwind CSS", "Framer Motion"],
+      "image": "./src/assets/portfolio.png",
       "route": "/projects/4",
-      "sourceCode": "https://github.com/JarneDM/topsy-turvy"
+      "sourceCode": "https://github.com/JarneDM/portfolio"
+    },
+    {
+      "id": "5",
+      "title": "InkWave",
+      "description": "InkWave is a social media platform that blends the best features of modern apps into one unified experience. It connects communities through text-based discussions (InkZone), short-form videos and photos (InkAir), and creative writing spaces (InkFlow). Built with Next.js, Tailwind CSS, Prisma, and PostgreSQL, InkWave focuses on performance, scalability, and a sleek, user-friendly design.",
+      "stack": ["Work In Progress", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+      "image": "./src/assets/inkwave.png",
+      "route": "/projects/5"
     }
   ]
 }

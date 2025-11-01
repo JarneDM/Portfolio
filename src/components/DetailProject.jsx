@@ -8,8 +8,26 @@ function DetailProject() {
   if (!project) return <h1>Not found</h1>;
 
   return (
-    <div className="p-8 max-w-3xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl shadow-lg space-y-6">
+    <div className="p-8 md:max-h-[38rem] overflow-y-auto custom-scrollbar max-w-3xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl shadow-lg space-y-6">
       <h1 className="text-3xl font-bold text-white border-b-2 border-blue-500 pb-2">{project.title}</h1>
+
+      {project.image && (
+        <img
+          src={project.image.startsWith("/") ? project.image : `/${project.image}`}
+          alt={project.title}
+          className="w-full h-full max-h-80 object-cover rounded-lg"
+          onError={(e) => {
+            e.target.style.display = "none";
+          }}
+        />
+      )}
+      <div className="flex flex-wrap gap-2 justify-center">
+        {project.stack.map((s, idx) => (
+          <span key={idx} className="px-2 py-1 bg-gray-200 text-gray-800 rounded font-semibold">
+            {s}
+          </span>
+        ))}
+      </div>
 
       <p className="text-gray-200 text-lg leading-relaxed">{project.description}</p>
 

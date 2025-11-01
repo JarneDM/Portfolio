@@ -12,16 +12,18 @@ function Projects() {
           <Link
             key={project.id}
             to={project.route}
-            className="bg-blue-700/80 p-6 rounded-lg shadow-lg flex flex-col items-center hover:scale-105 transform transition-all duration-300"
+            className="bg-blue-700/80 p-6 md:p-3 rounded-lg shadow-lg flex flex-col items-center hover:scale-105 transform transition-all duration-300 md:max-h-64 overflow-y-auto custom-scrollbar"
           >
-            <h2 className="text-2xl font-bold mb-4">{project.title}</h2>
-            <img src={project.image} alt={project.title} className="w-64 h-40 object-cover rounded-lg mb-4" />
-            <div className="flex flex-wrap gap-2 justify-center">
-              {project.stack.map((s, idx) => (
-                <span key={idx} className="px-2 py-1 bg-gray-200 text-gray-800 rounded font-semibold">
-                  {s}
-                </span>
-              ))}
+            <h2 className="text-2xl font-bold mb-4 md:text-lg">{project.title}</h2>
+            <img src={project.image} alt={project.title} className="w-64 h-40 md:w-52 md:h-32 object-cover rounded-lg mb-4" />
+            <div className="overflow-hidden w-full">
+              <div className="flex gap-2 whitespace-nowrap animate-marquee">
+                {[...project.stack, ...project.stack, ...project.stack].map((s, idx) => (
+                  <span key={idx} className="px-2 py-1 bg-gray-200 text-gray-800 rounded font-semibold md:text-sm">
+                    {s}
+                  </span>
+                ))}
+              </div>
             </div>
           </Link>
         ))}
