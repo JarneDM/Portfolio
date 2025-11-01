@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xwpnddpb");
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
   const [visible, setVisible] = React.useState(false);
 
   React.useEffect(() => {
