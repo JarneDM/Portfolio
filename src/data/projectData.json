@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Gym-Clickr (demo)",
+      "description": "A little clicker game where you can buy upgrades to increase your clicks per second. The demo is built with vanilla JavaScript. The full game will be built with React.js and Tailwind CSS for the frontend, and Express.js, Node.js, and MongoDB for the backend to handle user data and game state.",
+      "image": "./src/assets/gym-clickr.png",
+      "stack": ["React.js", "Tailwind CSS", "Express.js", "Node.js", "MongoDB", "In progress"],
+      "route": "/projects/1",
+      "liveDemo": "https://gym-clicker.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/gym-clicker"
+    },
+    {
+      "id": "2",
+      "title": "Skivio",
+      "description": "A responsive KanBan task board web app built with React.JS, Tailwind.CSS and Dexie.js (for IndexedDB), designed to give an intuitive drag-and-drop workflow for managing projects and tasks.",
+      "stack": ["React.js", "Tailwind CSS", "Dexie.js", "Headless UI", "Hello-Pangea/dnd"],
+      "image": "./src/assets/skivio.png",
+      "route": "/projects/2",
+      "liveDemo": "https://skivio.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/Skivio"
+    },
+    {
+      "id": "3",
+      "title": "Weather App",
+      "description": "A web application where users can check the weather in different cities. It fetches data from a weather API and displays current temperature, and weather conditions. Users can also favorite cities for quick access.",
+      "stack": ["React.js", "Tailwind CSS", "Express.js", "Node.js"],
+      "image": "./src/assets/weather-app.png",
+      "route": "/projects/3",
+      "liveDemo": "https://weather-app-jarnedm.vercel.app/",
+      "sourceCode": "https://github.com/JarneDM/weather-app"
+    },
+    {
+      "id": "4",
+      "title": "Portfolio",
+      "description": "The very portfolio you are looking at right now! Built with React.js and Tailwind CSS, featuring smooth scrolling and animations powered by Lenis and Framer Motion.",
+      "stack": ["React.js", "Tailwind CSS", "Framer Motion"],
+      "image": "./src/assets/portfolio.png",
+      "route": "/projects/4",
+      "sourceCode": "https://github.com/JarneDM/portfolio"
+    },
+    {
+      "id": "5",
+      "title": "InkWave",
+      "description": "InkWave is a social media platform that blends the best features of modern apps into one unified experience. It connects communities through text-based discussions (InkZone), short-form videos and photos (InkAir), and creative writing spaces (InkFlow). Built with Next.js, Tailwind CSS, Prisma, and PostgreSQL, InkWave focuses on performance, scalability, and a sleek, user-friendly design.",
+      "stack": ["Work In Progress", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
+      "image": "./src/assets/inkwave.png",
+      "route": "/projects/5"
+    }
+  ]
+}

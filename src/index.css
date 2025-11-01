@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(59, 130, 246, 0.95); /* tailwind blue-500 */
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(59, 130, 246, 0.95) transparent; /* Firefox */
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-25%);
+    }
+  }
+
+  .animate-marquee {
+    display: inline-flex;
+    animation: marquee 15s linear infinite;
+  }
+}
+
+body {
+  background-color: #f1f5f9;
+  overflow: hidden;
+  overflow-x: hidden;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@keyframes waveGradient {
+  0% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+
+.animated-bg {
+  background: radial-gradient(circle at 20% 30%, #02267b, transparent 50%), radial-gradient(circle at 80% 70%, #001e6f, transparent 50%),
+    radial-gradient(circle at 50% 50%, #3300c0, transparent 60%), radial-gradient(circle at 25% 25%, #6000c7, transparent 80%);
+  background-size: 200% 200%;
+  animation: waveGradient 12s ease-in-out infinite;
+}
