@@ -41,11 +41,12 @@
     },
     {
       "id": "5",
-      "title": "InkWave",
-      "description": "InkWave is a social media platform that blends the best features of modern apps into one unified experience. It connects communities through text-based discussions (InkZone), short-form videos and photos (InkAir), and creative writing spaces (InkFlow). Built with Next.js, Tailwind CSS, Prisma, and PostgreSQL, InkWave focuses on performance, scalability, and a sleek, user-friendly design.",
-      "stack": ["Work In Progress", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
-      "image": "/assets/inkwave.png",
-      "route": "/projects/5"
+      "title": "CoachPlate",
+      "description": "CoachPlate is a SaaS platform I built for nutrition coaches and personal trainers. It features AI-assisted meal plan and training program generation, client management, and branded PDF exports - all in one place. Built with Next.js, Supabase, and the Anthropic API.",
+      "stack": ["Next.js", "Tailwind CSS", "Supabase", "Shadcn", "Anthropic API", "In progress"],
+      "image": "/assets/coachplate.png",
+      "route": "/projects/5",
+      "liveDemo": "www.coachplate.com"
     }
   ]
 }

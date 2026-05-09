@@ -40,7 +40,7 @@ function DetailProject() {
               rel="noopener noreferrer"
               className="text-black bg-white hover:bg-blue-500 hover:text-white px-2 py-1 rounded transition-colors duration-300"
             >
-              Live Demo
+              Go To {project.title}
             </a>
           )}
           {project.sourceCode && (
